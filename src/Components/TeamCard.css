@@ -1,0 +1,81 @@
+.ProfileCard {
+    background-color: #1a1a1a;
+    border-radius: 20px;
+    padding: 40px 30px;
+    width: 280px;
+    min-height: 420px;
+    text-align: center;
+    box-shadow: 0 0 60px 20px rgba(80, 40, 200, 0.5);
+    display: flex;
+    flex-direction: column;
+    align-items: center;         /* ← yeh line add karo, photo center ho jayegi */
+    justify-content: space-between;
+}
+.Avatar {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+.Name {
+    color: white;
+    font-size: 28px;
+    margin: 10px 0;
+}
+
+.Title {
+    color: #4da3ff;
+    font-size: 18px;
+    margin: 5px 0 20px 0;
+}
+
+.Bio {
+    color: #cccccc;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.Links {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin-top: 10px;
+}
+
+.Links a {
+    color: #4da3ff;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.Links a:hover {
+    text-decoration: underline;
+}
+body {
+    background-color: #0a0a1a;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 60px;
+    padding: 60px;
+    min-height: 100vh;
+}
+
+.container {
+    width: auto;   /* full-width lene se rokega */
+}
+.Age{
+    color:white;
+    font-size: larger;
+}
+.True{
+    color:white;
+}
+.False{
+    color: white;
+    background:local;
+}

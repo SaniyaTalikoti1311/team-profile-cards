@@ -1,0 +1,22 @@
+body {
+    background-color: #0a0a1a;
+    margin: 0;
+    padding: 60px 20px;
+    min-height: 100vh;
+}
+
+.heading {
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-family: sans-serif;
+    margin-bottom: 40px;
+}
+
+.MainParent {
+    display: grid !important;
+    grid-template-columns: repeat(2, 1fr) !important;
+    gap: 40px;
+    max-width: 700px;
+    margin: 0 auto;
+}
